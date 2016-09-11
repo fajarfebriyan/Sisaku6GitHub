@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="cuma.belajar.fajarf.sisaku6.activity.MainActivity">
+
+    <item
+        android:id="@+id/action_search"
+        android:title="@string/action_search"
+        android:icon="@mipmap/ic_search_white_48dp"
+        app:showAsAction="always"
+        app:actionViewClass="android.support.v7.widget.SearchView" />
+    <item
+        android:id="@+id/action_shopping"
+        android:icon="@mipmap/ic_shopping_cart_white_48dp"
+        android:title="@string/action_shopping"
+        app:showAsAction="always" />
+</menu>

@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Sisaku</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- Login string -->
+    <string name="login_dulu">Masuk</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+
+    <!-- Action Bar strings -->
+    <string name="action_search">Search</string>
+    <string name="action_shopping">Shop</string>
+</resources>

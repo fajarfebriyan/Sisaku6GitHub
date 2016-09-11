@@ -1,0 +1,156 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context="cuma.belajar.fajarf.sisaku6.OneFragment">
+
+<!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView3">
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="5dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:paddingTop="5dp"
+        tools:context="cuma.belajar.fajarf.sisaku6.activity.MainActivity">
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tablelayout1">
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_weight="1">
+
+            <ImageView
+                android:src="@drawable/rumah_tangga"
+                android:layout_width="0dp"
+                android:layout_height="150dp"
+                android:layout_weight="1"
+                android:paddingBottom="2dp"
+                android:paddingTop="4dp"
+                android:paddingLeft="4dp"
+                android:paddingRight="4dp">
+
+            </ImageView>
+
+            <ImageView
+                android:src="@drawable/souvenir_kado"
+                android:layout_width="0dp"
+                android:layout_height="150dp"
+                android:layout_weight="1"
+                android:paddingBottom="2dp"
+                android:paddingTop="4dp"
+                android:paddingLeft="4dp"
+                android:paddingRight="4dp">
+
+            </ImageView>
+            <ImageView
+                android:src="@drawable/hiasan"
+                android:layout_width="0dp"
+                android:layout_height="150dp"
+                android:layout_weight="1"
+                android:paddingBottom="2dp"
+                android:paddingTop="4dp"
+                android:paddingLeft="4dp"
+                android:paddingRight="4dp">
+
+            </ImageView>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <ImageView
+                android:src="@drawable/alat_tulis_kantor"
+                android:layout_width="0dp"
+                android:layout_height="150dp"
+                android:layout_weight="1"
+                android:paddingBottom="2dp"
+                android:paddingTop="2dp"
+                android:paddingLeft="4dp"
+                android:paddingRight="4dp">
+
+            </ImageView>
+
+            <ImageView
+                android:src="@drawable/mode_aksesoris"
+                android:layout_width="0dp"
+                android:layout_height="150dp"
+                android:layout_weight="1"
+                android:paddingBottom="2dp"
+                android:paddingTop="2dp"
+                android:paddingLeft="4dp"
+                android:paddingRight="4dp">
+
+            </ImageView>
+            <ImageView
+                android:src="@drawable/hiburan"
+                android:layout_width="0dp"
+                android:layout_height="150dp"
+                android:layout_weight="1"
+                android:paddingBottom="2dp"
+                android:paddingTop="2dp"
+                android:paddingLeft="4dp"
+                android:paddingRight="4dp">
+
+            </ImageView>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow3"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <ImageView
+                android:src="@drawable/dapur"
+                android:layout_width="0dp"
+                android:layout_height="150dp"
+                android:layout_weight="1"
+                android:paddingBottom="2dp"
+                android:paddingTop="2dp"
+                android:paddingLeft="4dp"
+                android:paddingRight="4dp">
+
+            </ImageView>
+
+            <ImageView
+                android:src="@drawable/lainnya"
+                android:layout_width="0dp"
+                android:layout_height="150dp"
+                android:layout_weight="1"
+                android:paddingBottom="2dp"
+                android:paddingTop="2dp"
+                android:paddingLeft="4dp"
+                android:paddingRight="4dp">
+
+            </ImageView>
+            <ImageView
+
+                android:layout_width="0dp"
+                android:layout_height="150dp"
+                android:layout_weight="1"
+                android:paddingBottom="2dp"
+                android:paddingTop="2dp"
+                android:paddingLeft="4dp"
+                android:paddingRight="4dp">
+
+            </ImageView>
+        </TableRow>
+    </TableLayout>
+
+    </RelativeLayout>
+    </ScrollView>
+
+</FrameLayout>
