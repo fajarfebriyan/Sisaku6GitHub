@@ -20,8 +20,9 @@
         <meta-data
             android:name="com.google.android.gms.version"
             android:value="@integer/google_play_services_version" />
+
         <meta-data
-            android:name="com.google.android.maps.v2.API_KEY"
+            android:name="com.google.android.geo.API_KEY"
             android:value="AIzaSyAXQi8gYhh5_wYvFjR5fDaJbBdArtudqPQ" />
 
         <activity android:name=".activity.MainActivity">
@@ -42,8 +43,13 @@
         <activity android:name=".activity.halaman_produk" />
         <activity
             android:name=".activity.halaman_penjemputan"
-            android:label="Jemput Sampah"></activity>
-        <activity android:name=".activity.MapsActivity"></activity>
+            android:label="Jemput Sampah"/>
+
+        <activity android:name=".activity.maps"/>
+
+        <service
+            android:name="cuma.belajar.fajarf.sisaku6.activity.FetchAddressIntentService"
+            android:exported="false" />
     </application>
 
 </manifest>
