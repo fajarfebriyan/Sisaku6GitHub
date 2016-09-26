@@ -29,7 +29,10 @@
 
         <ScrollView
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true">
 
             <RelativeLayout
                 android:layout_width="match_parent"
@@ -82,7 +85,7 @@
                     android:layout_alignParentStart="true"
                     android:layout_below="@+id/tombol_masuk"
                     android:layout_marginTop="40dp"
-                    android:textColor="#d9c804"/>
+                    android:textColor="#ffc637"/>
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -90,11 +93,15 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="Lupa Password?"
                     android:id="@+id/textlupasandi"
-                    android:textColor="#d9c804"
+                    android:textColor="#ffc637"
                     android:layout_alignBaseline="@+id/textdaftar"
                     android:layout_alignBottom="@+id/textdaftar"
                     android:layout_alignParentRight="true"
                     android:layout_alignParentEnd="true" />
+
+
+
+
             </RelativeLayout>
         </ScrollView>
 
